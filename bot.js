@@ -8,6 +8,10 @@ client.on('message', (receivedMessage) => {
     if (receivedMessage.author == client.user) {
         return
     }
+    
+    if (receivedMessage.channel.id == 609901832004829221) {
+        return
+    }
 
     var str = receivedMessage.content.toLowerCase();
     
