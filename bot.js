@@ -39,6 +39,7 @@ client.on('message', (receivedMessage) => {
         return
     }
 
+    //maybe maybe maybe
     if (receivedMessage.channel.id == 727983603266486376) {
 
         if (Math.floor(Math.random()*10)==1) {
