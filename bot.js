@@ -38,7 +38,7 @@ client.on('message', (receivedMessage) => {
         return
     }
 
-    if (receivedMessage.channel.id == 821479977350332468) {
+    if (receivedMessage.channel.id == 727983603266486376) {
 
         if (Math.floor(Math.random()*10)==1) {
             (async () => {
@@ -66,25 +66,9 @@ client.on('message', (receivedMessage) => {
         }
     }
 
-    if (str.includes("jaren")){
-        // receivedMessage.channel.send(abbastrings);
-        console.log(abbamap.keys())
-    }
-
-    if (str.includes("stop")) {
-        res = receivedMessage.content.replace(/stop/gi, "slut");
-        receivedMessage.channel.send(res)
-    }
-
-    if (str.includes("fast")) {
-        res = receivedMessage.content.replace(/fast/gi, "fart");
-        receivedMessage.channel.send(res)
-    }
 
 
 })
 
 
 client.login(process.env.BOT_TOKEN)
-
-
