@@ -1,25 +1,16 @@
 {
-
   "name": "Example",
-
   "description": "Example",
-
   "version": "0.0.0",
-
   "main": "bot.js",
-
   "scripts": {
-
     "start": "node bot.js"
-
   },
-
   "dependencies": {
-
-    "discord.js": "11.1.0",
-
+    "axios": "^0.21.1",
+    "discord.js": "^11.1.0",
+    "dotenv": "^8.2.0",
+    "giphy-random": "^2.0.8",
     "request": "2.81.0"
-
   }
-
 }
