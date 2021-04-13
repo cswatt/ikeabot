@@ -34,6 +34,7 @@ client.on('message', (receivedMessage) => {
         return
     }
 
+    // Prevent bot from doing shit in this channel
     if (receivedMessage.channel.id == 609901832004829221) {
         return
     }
@@ -50,7 +51,7 @@ client.on('message', (receivedMessage) => {
                 });
                 receivedMessage.channel.send(data['url']);
             } catch (error) {
-                // console.log(error);
+                console.log(error);
             }
             })();
         }
